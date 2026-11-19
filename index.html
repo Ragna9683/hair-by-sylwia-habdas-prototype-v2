@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hair by Sylwia Habdas, salon fryzjerski na warszawskim Mokotowie. Blondy, refleksy i koloryzacja.">
+    <title>Hair by Sylwia Habdas · Warszawa Mokotów</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#tresc">Przejdź do treści</a>
+
+    <header class="masthead dark-surface" id="start" tabindex="-1">
+      <div class="frame masthead-layout">
+        <p class="location">Mokotów, Warszawa</p>
+        <a class="brand" href="#start" aria-label="Hair by Habdas Concept, początek strony">
+          <img src="./assets/habdas-wordmark.png" alt="" width="647" height="242">
+        </a>
+        <nav aria-label="Menu główne">
+          <a class="text-link" href="#o-nas">O nas <span class="arrow" aria-hidden="true"></span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="tresc" tabindex="-1">
+      <section class="hero dark-surface" aria-labelledby="hero-title">
+        <div class="frame hero-layout">
+          <h1 class="hero-title" id="hero-title"><span>Pięknie</span> <span>być sobą.</span></h1>
+
+          <div class="film" id="kadr">
+            <div class="film-window">
+              <img src="./assets/film-poster.webp" alt="Kobieta o długich blond włosach odwraca się przed białymi drzwiami." width="576" height="1024" fetchpriority="high">
+              <video id="salon-film" src="./assets/film_2_original_vertical.mp4" poster="./assets/film-poster.webp" width="576" height="1024" preload="none" muted playsinline aria-hidden="true"></video>
+            </div>
+          </div>
+
+          <button class="film-control" type="button" aria-controls="salon-film" aria-label="Odtwórz film" title="Odtwórz film" hidden>
+            <span class="film-icon" aria-hidden="true"></span>
+            <span class="film-label">Odtwórz film</span>
+          </button>
+
+          <div class="hero-note">
+            <p>Salon fryzjerski na Mokotowie. Blondy, refleksy i koloryzacja.</p>
+            <a class="text-link" href="#o-nas">Poznaj Sylwię <span class="arrow" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="o-nas" aria-labelledby="about-title" tabindex="-1">
+        <div class="frame founder">
+          <figure class="founder-portrait" data-reveal="image">
+            <img src="./assets/sylwia-habdas.webp" alt="Czarno-biały portret Sylwii Habdas z nożyczkami przy twarzy." width="1040" height="1560" loading="lazy" decoding="async">
+          </figure>
+          <h2 class="founder-title" id="about-title" data-bio data-reveal>
+            <span>Nazywam się</span> Sylwia Habdas.
+          </h2>
+        </div>
+
+        <div class="experience">
+          <div class="frame experience-layout">
+            <p class="experience-mark" aria-hidden="true" data-reveal><span>20+</span> lat</p>
+            <p class="experience-lead" data-bio data-reveal>Od ponad dwudziestu lat tworzę fryzury dla kobiet, które cenią naturalność, jakość i ponadczasowy styl.</p>
+            <p class="experience-path" data-bio data-reveal>Moja droga zaczęła się od pracy przy sesjach zdjęciowych, pokazach mody i produkcjach telewizyjnych. To właśnie tam nauczyłam się patrzeć na włosy jak na część całego wizerunku.</p>
+            <p class="experience-clients" data-bio data-reveal>Przez lata miałam przyjemność stylizować włosy wielu wyjątkowym kobietom. Wśród nich były Ania Wyszkoni, Małgorzata Rozenek Majdan, Maryla Rodowicz, Edyta Górniak, Halina Mlynkova, Doda, Martyna Wojciechowska i Bogna Sworowska.</p>
+          </div>
+        </div>
+
+        <picture class="interior-cut" data-reveal="image">
+          <source media="(max-width: 40rem)" srcset="./assets/salon-panorama-mobile.webp" width="760" height="570">
+          <img src="./assets/salon-panorama.webp" alt="Fotele fryzjerskie, zasłony i lustro z odbiciem okna w salonie na Mokotowie." width="1800" height="810" loading="lazy" decoding="async">
+        </picture>
+
+        <div class="frame atelier">
+          <div class="own-place">
+            <h3 data-reveal>Własne miejsce</h3>
+            <p data-bio data-reveal>Mimo pracy przy dużych produkcjach i z osobami znanymi od zawsze marzyłam o własnym miejscu. Chciałam stworzyć salon, do którego kobiety będą przychodziły nie tylko po piękne włosy, ale również po spokój, dobrą atmosferę i poczucie, że ktoś naprawdę poświęca im czas.</p>
+          </div>
+
+          <figure class="salon-print" data-reveal="image">
+            <img src="./assets/salon-chandelier.webp" alt="Żyrandol, zdobione lustro i fotel w salonie Sylwii." width="900" height="1350" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="tools-print" data-reveal="image">
+            <img src="./assets/scissors.webp" alt="Nożyczki fryzjerskie na otwartej książce." width="600" height="900" loading="lazy" decoding="async">
+          </figure>
+
+          <p class="craft-note" data-bio data-reveal>Nieustannie rozwijam swój warsztat, szkolę się i inspiruję najlepszymi markami oraz światowymi trendami we fryzjerstwie i pielęgnacji. Wierzę, że aby tworzyć rzeczy ponadczasowe, trzeba stale podnosić sobie poprzeczkę i czerpać inspiracje od najlepszych.</p>
+        </div>
+
+        <div class="studio">
+          <div class="frame studio-layout">
+            <h3 data-bio data-reveal>Tak powstał<br>mój salon.</h3>
+            <div class="studio-copy">
+              <p data-bio data-reveal>Kameralna przestrzeń inspirowana paryskim stylem, gdzie liczy się jakość, doświadczenie i dbałość o każdy szczegół. Wierzę, że prawdziwa elegancja nie potrzebuje rozgłosu. Jest widoczna w sposobie pracy, w relacji z klientką i w efekcie, który wygląda naturalnie i pozostaje piękny przez długi czas.</p>
+              <p data-bio data-reveal>Specjalizuję się w blondach, refleksach i koloryzacjach, które podkreślają urodę, a nie ją zmieniają. Każdą wizytę zaczynam od rozmowy, ponieważ wierzę, że najpiękniejsza fryzura to taka, w której kobieta czuje się sobą.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="farewell dark-surface">
+          <div class="frame farewell-layout">
+            <p class="farewell-line" data-bio data-reveal>Zapraszam Cię do mojego świata.</p>
+            <p class="farewell-copy" data-bio data-reveal>Miejsca stworzonego z pasji, doświadczenia i nieustannego dążenia do najwyższej jakości.</p>
+            <a class="text-link back-link" href="#start">Na górę <span class="arrow arrow--up" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
